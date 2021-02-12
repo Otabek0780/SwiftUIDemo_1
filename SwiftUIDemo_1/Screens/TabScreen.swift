@@ -8,40 +8,66 @@
 import SwiftUI
 
 struct TabScreen: View {
+    
+    @State var isSheet = false
+    @State var showingAlert = false
+    
+    var actionSheet: ActionSheet {
+        let title = "Action"
+        let message = "Description"
+        return ActionSheet(title: Text(title), message: Text(message),
+                           buttons: [
+                            .default(Text("Confirm"), action: {
+                            //action
+                            }),
+                            .destructive(Text("Cancel"), action: {
+                            //action
+                            })
+                           ])
+    }
+    
     var body: some View {
         
         TabView {
+//.........................................Alert_Style..........................................
+            Button(action: {
+                showingAlert = true
+            }, label: {
+                Text("Show Alert")
+            }).alert(isPresented: $showingAlert, content: {
+                let title = "Logout"
+                let message = "Do you want to leave?"
+                return Alert(title: Text(title), message: Text(message),
+                             primaryButton: .destructive(Text("Cancel")){
+                            //action
+                             },
+                             secondaryButton: .default(Text("Confirm")){
+                            //action
+                             }
+                             )
+            })
+            .tabItem {
+                Image("ic_comment")
+                Text("Alert")
+            }
+//.........................................Sheet_Action_Style...............................
+            Spacer()
+            Button(action: {
+                isSheet = true
+            },
+            label: {
+                Text("Show Action Sheet")
+            }).actionSheet(isPresented: $isSheet, content: {
+                self.actionSheet
+            })
+            .tabItem {
+                Image("ic_camera")
+                Text("Action Sheet")
+            }
             
-//            Text("Home")
-//                .frame(maxWidth: .infinity, maxHeight: .infinity)
-//                .background(Color.black.opacity(0.3))
-////                .tabItem({
-////                    Image("ic_comment")
-////                    Text("Home")
-////                })
-            Image("img_1")
-                //.resizable()
-                .scaledToFill()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-//                .tabItem({
-//                    Image("ic_camera")
-//                    Text("Camera")
-//                })
-            
-            Image("img_6")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .scaledToFill()
-            
-            Image("img_4")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .scaledToFill()
-            Image("img_7")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .scaledToFill()
         }
-        
-        .tabViewStyle(PageTabViewStyle())
-        .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+        //.tabViewStyle(PageTabViewStyle())
+        //.indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
     }
 }
 
