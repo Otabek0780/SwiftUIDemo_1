@@ -20,6 +20,7 @@
 		5F38D1F225D6401600E8B43B /* PushingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D1F125D6401600E8B43B /* PushingScreen.swift */; };
 		5F38D1F725D6426100E8B43B /* PresentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D1F625D6426100E8B43B /* PresentScreen.swift */; };
 		5F38D20025D6538600E8B43B /* Protocol_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D1FF25D6538600E8B43B /* Protocol_1.swift */; };
+		5F38D21025D65E8800E8B43B /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D20F25D65E8800E8B43B /* TabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		5F38D1F125D6401600E8B43B /* PushingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingScreen.swift; sourceTree = "<group>"; };
 		5F38D1F625D6426100E8B43B /* PresentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentScreen.swift; sourceTree = "<group>"; };
 		5F38D1FF25D6538600E8B43B /* Protocol_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_1.swift; sourceTree = "<group>"; };
+		5F38D20F25D65E8800E8B43B /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				5F38D1EC25D2F3F500E8B43B /* DetailScreen.swift */,
 				5F38D1F625D6426100E8B43B /* PresentScreen.swift */,
 				5F38D1F125D6401600E8B43B /* PushingScreen.swift */,
+				5F38D20F25D65E8800E8B43B /* TabScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				5F38D15825D17F8400E8B43B /* AppDelegate.swift in Sources */,
 				5F38D19025D181E500E8B43B /* HomeScreen.swift in Sources */,
 				5F38D15A25D17F8400E8B43B /* SceneDelegate.swift in Sources */,
+				5F38D21025D65E8800E8B43B /* TabScreen.swift in Sources */,
 				5F38D20025D6538600E8B43B /* Protocol_1.swift in Sources */,
 				5F38D1F225D6401600E8B43B /* PushingScreen.swift in Sources */,
 				5F38D15F25D17F8400E8B43B /* SwiftUIDemo_1.xcdatamodeld in Sources */,

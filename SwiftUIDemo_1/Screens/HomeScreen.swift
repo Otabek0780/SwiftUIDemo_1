@@ -13,37 +13,37 @@ struct HomeScreen: View {
     
    
     var body: some View {
-        
-        NavigationView{
-            List {
-                
-                Image("p_1")
-                    .resizable()
-                    .scaledToFill()
-                Image("p_3")
-                    .resizable()
-                    .scaledToFill()
-                Image("p_2")
-                    .resizable()
-                    .scaledToFill()
-                Image("p_1")
-                    .resizable()
-                    .scaledToFill()
-                
-            }
-            .navigationBarTitle("Home",displayMode: .inline)
-            .navigationBarItems(leading: Image("ic_menu"),
-                                trailing: HStack{
-                                    Image("ic_camera")
-                                    Image(systemName: "plus")
-                                })
-
-
-            
-            
-            
-            
-        }
+        Text("H")
+//        NavigationView{
+//            List {
+//
+//                Image("p_1")
+//                    .resizable()
+//                    .scaledToFill()
+//                Image("p_3")
+//                    .resizable()
+//                    .scaledToFill()
+//                Image("p_2")
+//                    .resizable()
+//                    .scaledToFill()
+//                Image("p_1")
+//                    .resizable()
+//                    .scaledToFill()
+//
+//            }
+//            .navigationBarTitle("Home",displayMode: .inline)
+//            .navigationBarItems(leading: Image("ic_menu"),
+//                                trailing: HStack{
+//                                    Image("ic_camera")
+//                                    Image(systemName: "plus")
+//                                })
+//
+//
+//
+//
+//
+//
+//        }
     }
 
 }
