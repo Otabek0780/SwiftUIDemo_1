@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F21A79925D78FB000B41672 /* trevelBus.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F21A79825D78FB000B41672 /* trevelBus.json */; };
+		5F2F2A6125D9173700FE8C47 /* ItemPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A6025D9173700FE8C47 /* ItemPost.swift */; };
+		5F2F2A6625D93AEC00FE8C47 /* ItemStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A6525D93AEC00FE8C47 /* ItemStory.swift */; };
+		5F2F2A6B25D93F5300FE8C47 /* AddStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A6A25D93F5300FE8C47 /* AddStory.swift */; };
 		5F38D15825D17F8400E8B43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D15725D17F8400E8B43B /* AppDelegate.swift */; };
 		5F38D15A25D17F8400E8B43B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D15925D17F8400E8B43B /* SceneDelegate.swift */; };
 		5F38D15F25D17F8400E8B43B /* SwiftUIDemo_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D15D25D17F8400E8B43B /* SwiftUIDemo_1.xcdatamodeld */; };
@@ -21,6 +25,17 @@
 		5F38D1F725D6426100E8B43B /* PresentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D1F625D6426100E8B43B /* PresentScreen.swift */; };
 		5F38D20025D6538600E8B43B /* Protocol_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D1FF25D6538600E8B43B /* Protocol_1.swift */; };
 		5F38D21025D65E8800E8B43B /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D20F25D65E8800E8B43B /* TabScreen.swift */; };
+		5F38D21525D6A3FE00E8B43B /* Udemy_Practice_SwiftUI_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D21425D6A3FE00E8B43B /* Udemy_Practice_SwiftUI_1.swift */; };
+		5F38D21B25D6ACBB00E8B43B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F38D21A25D6ACBB00E8B43B /* Pacifico-Regular.ttf */; };
+		5F38D22025D6BFAF00E8B43B /* Udemy_Practice_SwiftUI_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D21F25D6BFAF00E8B43B /* Udemy_Practice_SwiftUI_2.swift */; };
+		5F38D22625D78D1700E8B43B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5F38D22525D78D1700E8B43B /* Lottie */; };
+		5FF4520D25D7A3F600CA0E74 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4520C25D7A3F600CA0E74 /* LottieView.swift */; };
+		5FF4521225D7A47100CA0E74 /* Animation_Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4521125D7A47100CA0E74 /* Animation_Views.swift */; };
+		5FFAEB6825D7B57C00D16998 /* facebook.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FFAEB6725D7B57C00D16998 /* facebook.json */; };
+		5FFAEB6D25D7BD5200D16998 /* SignIn_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFAEB6C25D7BD5200D16998 /* SignIn_Screen.swift */; };
+		5FFAEB7225D7BD6800D16998 /* SignUp_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFAEB7125D7BD6800D16998 /* SignUp_Screen.swift */; };
+		5FFAEB7C25D8160500D16998 /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFAEB7B25D8160500D16998 /* StarterScreen.swift */; };
+		5FFAEB8425D82B2600D16998 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFAEB8325D82B2600D16998 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F21A79825D78FB000B41672 /* trevelBus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trevelBus.json; sourceTree = "<group>"; };
+		5F2F2A6025D9173700FE8C47 /* ItemPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPost.swift; sourceTree = "<group>"; };
+		5F2F2A6525D93AEC00FE8C47 /* ItemStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStory.swift; sourceTree = "<group>"; };
+		5F2F2A6A25D93F5300FE8C47 /* AddStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStory.swift; sourceTree = "<group>"; };
 		5F38D15425D17F8400E8B43B /* SwiftUIDemo_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F38D15725D17F8400E8B43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F38D15925D17F8400E8B43B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +80,16 @@
 		5F38D1F625D6426100E8B43B /* PresentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentScreen.swift; sourceTree = "<group>"; };
 		5F38D1FF25D6538600E8B43B /* Protocol_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_1.swift; sourceTree = "<group>"; };
 		5F38D20F25D65E8800E8B43B /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
+		5F38D21425D6A3FE00E8B43B /* Udemy_Practice_SwiftUI_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Practice_SwiftUI_1.swift; sourceTree = "<group>"; };
+		5F38D21A25D6ACBB00E8B43B /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		5F38D21F25D6BFAF00E8B43B /* Udemy_Practice_SwiftUI_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Practice_SwiftUI_2.swift; sourceTree = "<group>"; };
+		5FF4520C25D7A3F600CA0E74 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		5FF4521125D7A47100CA0E74 /* Animation_Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_Views.swift; sourceTree = "<group>"; };
+		5FFAEB6725D7B57C00D16998 /* facebook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = facebook.json; sourceTree = "<group>"; };
+		5FFAEB6C25D7BD5200D16998 /* SignIn_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn_Screen.swift; sourceTree = "<group>"; };
+		5FFAEB7125D7BD6800D16998 /* SignUp_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_Screen.swift; sourceTree = "<group>"; };
+		5FFAEB7B25D8160500D16998 /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
+		5FFAEB8325D82B2600D16998 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F38D22625D78D1700E8B43B /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +118,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F21A79725D78F8A00B41672 /* json_Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F21A79825D78FB000B41672 /* trevelBus.json */,
+				5FFAEB6725D7B57C00D16998 /* facebook.json */,
+				5FF4520C25D7A3F600CA0E74 /* LottieView.swift */,
+			);
+			path = json_Files;
+			sourceTree = "<group>";
+		};
+		5F2F2A5F25D9170A00FE8C47 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F2A6A25D93F5300FE8C47 /* AddStory.swift */,
+				5F2F2A6525D93AEC00FE8C47 /* ItemStory.swift */,
+				5F2F2A6025D9173700FE8C47 /* ItemPost.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		5F38D14B25D17F8400E8B43B = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +161,8 @@
 		5F38D15625D17F8400E8B43B /* SwiftUIDemo_1 */ = {
 			isa = PBXGroup;
 			children = (
+				5F2F2A5F25D9170A00FE8C47 /* Cells */,
+				5F21A79725D78F8A00B41672 /* json_Files */,
 				5F38D1FE25D6535C00E8B43B /* Protocols */,
 				5F38D18E25D1815900E8B43B /* Screens */,
 				5F38D18D25D180DF00E8B43B /* Apputils */,
@@ -152,6 +204,8 @@
 		5F38D18D25D180DF00E8B43B /* Apputils */ = {
 			isa = PBXGroup;
 			children = (
+				5FFAEB8325D82B2600D16998 /* Status.swift */,
+				5F38D21925D6AC7700E8B43B /* fonts */,
 				5F38D16525D17F8800E8B43B /* LaunchScreen.storyboard */,
 				5F38D15D25D17F8400E8B43B /* SwiftUIDemo_1.xcdatamodeld */,
 			);
@@ -161,11 +215,8 @@
 		5F38D18E25D1815900E8B43B /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				5F38D18F25D181E500E8B43B /* HomeScreen.swift */,
-				5F38D1EC25D2F3F500E8B43B /* DetailScreen.swift */,
-				5F38D1F625D6426100E8B43B /* PresentScreen.swift */,
-				5F38D1F125D6401600E8B43B /* PushingScreen.swift */,
-				5F38D20F25D65E8800E8B43B /* TabScreen.swift */,
+				5FFAEB7625D8150E00D16998 /* Real Project Parts */,
+				5FFAEB7725D8153900D16998 /* others */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -176,6 +227,39 @@
 				5F38D1FF25D6538600E8B43B /* Protocol_1.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5F38D21925D6AC7700E8B43B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5F38D21A25D6ACBB00E8B43B /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		5FFAEB7625D8150E00D16998 /* Real Project Parts */ = {
+			isa = PBXGroup;
+			children = (
+				5FFAEB7B25D8160500D16998 /* StarterScreen.swift */,
+				5F38D18F25D181E500E8B43B /* HomeScreen.swift */,
+				5FFAEB6C25D7BD5200D16998 /* SignIn_Screen.swift */,
+				5FFAEB7125D7BD6800D16998 /* SignUp_Screen.swift */,
+			);
+			path = "Real Project Parts";
+			sourceTree = "<group>";
+		};
+		5FFAEB7725D8153900D16998 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				5F38D1EC25D2F3F500E8B43B /* DetailScreen.swift */,
+				5F38D1F625D6426100E8B43B /* PresentScreen.swift */,
+				5F38D1F125D6401600E8B43B /* PushingScreen.swift */,
+				5F38D20F25D65E8800E8B43B /* TabScreen.swift */,
+				5F38D21425D6A3FE00E8B43B /* Udemy_Practice_SwiftUI_1.swift */,
+				5F38D21F25D6BFAF00E8B43B /* Udemy_Practice_SwiftUI_2.swift */,
+				5FF4521125D7A47100CA0E74 /* Animation_Views.swift */,
+			);
+			path = others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +278,9 @@
 			dependencies = (
 			);
 			name = SwiftUIDemo_1;
+			packageProductDependencies = (
+				5F38D22525D78D1700E8B43B /* Lottie */,
+			);
 			productName = SwiftUIDemo_1;
 			productReference = 5F38D15425D17F8400E8B43B /* SwiftUIDemo_1.app */;
 			productType = "com.apple.product-type.application";
@@ -265,6 +352,9 @@
 				Base,
 			);
 			mainGroup = 5F38D14B25D17F8400E8B43B;
+			packageReferences = (
+				5F38D22425D78D1700E8B43B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 5F38D15525D17F8400E8B43B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -281,7 +371,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F21A79925D78FB000B41672 /* trevelBus.json in Resources */,
 				5F38D16725D17F8800E8B43B /* LaunchScreen.storyboard in Resources */,
+				5F38D21B25D6ACBB00E8B43B /* Pacifico-Regular.ttf in Resources */,
+				5FFAEB6825D7B57C00D16998 /* facebook.json in Resources */,
 				5F38D16425D17F8800E8B43B /* Preview Assets.xcassets in Resources */,
 				5F38D16125D17F8800E8B43B /* Assets.xcassets in Resources */,
 			);
@@ -310,13 +403,24 @@
 			files = (
 				5F38D1F725D6426100E8B43B /* PresentScreen.swift in Sources */,
 				5F38D1ED25D2F3F500E8B43B /* DetailScreen.swift in Sources */,
+				5F2F2A6125D9173700FE8C47 /* ItemPost.swift in Sources */,
+				5FF4521225D7A47100CA0E74 /* Animation_Views.swift in Sources */,
+				5FFAEB8425D82B2600D16998 /* Status.swift in Sources */,
+				5FFAEB7C25D8160500D16998 /* StarterScreen.swift in Sources */,
 				5F38D15825D17F8400E8B43B /* AppDelegate.swift in Sources */,
 				5F38D19025D181E500E8B43B /* HomeScreen.swift in Sources */,
 				5F38D15A25D17F8400E8B43B /* SceneDelegate.swift in Sources */,
 				5F38D21025D65E8800E8B43B /* TabScreen.swift in Sources */,
+				5FFAEB7225D7BD6800D16998 /* SignUp_Screen.swift in Sources */,
 				5F38D20025D6538600E8B43B /* Protocol_1.swift in Sources */,
 				5F38D1F225D6401600E8B43B /* PushingScreen.swift in Sources */,
+				5F38D22025D6BFAF00E8B43B /* Udemy_Practice_SwiftUI_2.swift in Sources */,
 				5F38D15F25D17F8400E8B43B /* SwiftUIDemo_1.xcdatamodeld in Sources */,
+				5FFAEB6D25D7BD5200D16998 /* SignIn_Screen.swift in Sources */,
+				5F38D21525D6A3FE00E8B43B /* Udemy_Practice_SwiftUI_1.swift in Sources */,
+				5FF4520D25D7A3F600CA0E74 /* LottieView.swift in Sources */,
+				5F2F2A6625D93AEC00FE8C47 /* ItemStory.swift in Sources */,
+				5F2F2A6B25D93F5300FE8C47 /* AddStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +743,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F38D22425D78D1700E8B43B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F38D22525D78D1700E8B43B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F38D22425D78D1700E8B43B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5F38D15D25D17F8400E8B43B /* SwiftUIDemo_1.xcdatamodeld */ = {
