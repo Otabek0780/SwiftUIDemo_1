@@ -38,12 +38,16 @@ struct SignIn_Screen: View {
                         .padding(.leading, 15)
                         .background(Color.white)
                         .cornerRadius(25)
+                        .padding(.trailing)
+                        .padding(.leading)
                     
                     SecureField("User PW", text: $password)
                         .frame(height: 45)
                         .padding(.leading, 15)
                         .background(Color.white)
                         .cornerRadius(25)
+                        .padding(.trailing)
+                        .padding(.leading)
                         
                     Button(action: {
                         
@@ -61,6 +65,8 @@ struct SignIn_Screen: View {
                         .frame(height: 45)
                         .background(Color.blue)
                         .cornerRadius(25)
+                        .padding(.trailing)
+                        .padding(.leading)
                         
                     })
                     
@@ -113,11 +119,11 @@ struct profileImageView: View {
                 .overlay(
                     
                     ZStack {
-                        Text("SwiftUI")
-                            .foregroundColor(.white)
-                            .opacity(0.8)
-                            .font(.system(size: 25))
-                            .padding(EdgeInsets(top: 5, leading: 0, bottom: 0, trailing: 70))
+//                        Text("SwiftUI")
+//                            .foregroundColor(.white)
+//                            .opacity(0.8)
+//                            .font(.system(size: 25))
+//                            .padding(EdgeInsets(top: 5, leading: 0, bottom: 0, trailing: 70))
                         
                         Circle().stroke(Color.white, lineWidth: 5)
                         

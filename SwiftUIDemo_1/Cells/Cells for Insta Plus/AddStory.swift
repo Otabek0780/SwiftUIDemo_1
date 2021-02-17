@@ -24,6 +24,7 @@ struct AddStory: View {
                     .resizable()
                     .frame(width: 20, height: 20)
                     .background(Color.clear)
+                    .clipShape(Circle())
             }
                 
                 
